@@ -1,0 +1,19 @@
+format: jb-book
+root: intro
+defaults:
+  numbered: true
+parts:
+  - caption: AK model with adjustment costs
+    chapters:
+    - file: book_ac/model_construction
+    - file: book_ac/notebook1
+    - file: book_ac/notebook2
+  - caption: Permanent income model
+    chapters:
+    - file: book_pi/model_construction
+    - file: book_pi/notebook1
+    - file: book_pi/notebook2
+    - file: book_pi/special_issue
+  - caption: Reference
+    chapters:
+    - file: reference
